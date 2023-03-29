@@ -8,8 +8,8 @@
 <body>
 	<h1>Show data</h1>
 	
-	<p>id: <b>${id}</b> </p>
-	<p>name: <b>${name}</b></p>
+	<p>Id: <b>${id}</b> </p>
+	<p>Name: <b>${name}</b></p>
 	
 </body>
 </html>

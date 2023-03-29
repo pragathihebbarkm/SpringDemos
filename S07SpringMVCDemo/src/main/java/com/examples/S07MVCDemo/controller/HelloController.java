@@ -68,7 +68,7 @@ public class HelloController {
 	}
 	
 	@RequestMapping("/showdata")
-	public ModelAndView showdata(@RequestParam("id") int id, @RequestParam("name") String name) {
+	public ModelAndView showData(@RequestParam("id") int id, @RequestParam("name") String name) {
 		
 		System.out.println("Id: "+id);
 		System.out.println("Name: "+name);

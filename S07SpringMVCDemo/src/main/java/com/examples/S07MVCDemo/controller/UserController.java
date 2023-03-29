@@ -13,10 +13,8 @@ import com.examples.S07MVCDemo.model.User;
 public class UserController {
 
 		@RequestMapping("/register")
-		public ModelAndView showRegistrationPage() {
-			ModelAndView modelView = new ModelAndView();
-			modelView.setViewName("registeruser");
-			return modelView;
+		public String showRegistrationPage() {
+			return "registeruser";
 		}
 		
 		@RequestMapping(value="/signupuser", method=RequestMethod.POST)
